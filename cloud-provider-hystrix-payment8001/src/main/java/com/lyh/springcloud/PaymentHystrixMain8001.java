@@ -32,6 +32,8 @@ public class PaymentHystrixMain8001 {
         servletRegistrationBean.setLoadOnStartup(1);
         servletRegistrationBean.addUrlMappings("/hystrix.stream");
         servletRegistrationBean.setName("HystrixMetricsStreamServlet");
+
         return servletRegistrationBean;
+        //测试
     }
 }
